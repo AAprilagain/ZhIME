@@ -1,0 +1,10 @@
+{
+  "beam": 64,
+  "fuzzy_penalty": 1.0,
+  "scorer": "joint",
+  "alpha": 0.75,
+  "selection_sha256": "02702bdf18ba99ab030690ac38d51e489e5dc1deabad7ac5de5364f8fcb9f784",
+  "model_sha256": "6567d6c07a087adc2d1c33b7100c512f9ba8b241824dcb78d021a568cfddef66",
+  "tokenizer_sha256": "94cdfc4112f9d6eab063847d8df440916be2e55da5d8bc5771eb681847dba305",
+  "context_normalization": "NFKC + collapsed whitespace"
+}

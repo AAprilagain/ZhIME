@@ -1,0 +1,10 @@
+{
+  "build": {"status": "passed", "architecture": "x64", "compiler": "MSVC 19.29", "sdk": "10.0.16299.0"},
+  "runtime_dependency_on_rime": false,
+  "registration": {"status": "passed", "method": "administrator installation confirmed by user and actual TSF activation in applications"},
+  "notepad": {"status": "passed", "checks": ["candidate popup", "saved 你好", "pinyin editing", "numeric selection", "paging", "cancel", "punctuation"], "evidence": ["runtime/notepad-acceptance.png", "runtime/zhime-acceptance.txt"]},
+  "chromium": {"status": "passed", "checks": ["candidate popup", "DOM 你好", "editing", "numeric selection", "paging", "Shift mode switching with DOM abc你好", "n/l toggle and restored composition", "English and Chinese punctuation with DOM ,. and ，。"], "evidence": ["runtime/chromium-committed.png", "runtime/chromium-fuzzy-restored.png", "runtime/tsf-events-final.log"]},
+  "model_unavailable": {"status": "passed_backend_only", "evidence": ["tests/test_independent_server.py"]},
+  "remaining_application_checks": ["explicit context clear effect", "focus change with a pending request", "navigation lock under injected response delay", "whole-service interruption and recovery", "mouse selection", "separate Delete-key assertion"],
+  "performance": "runtime/performance.json"
+}

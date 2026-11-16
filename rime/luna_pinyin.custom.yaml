@@ -1,0 +1,3 @@
+patch:
+  engine/processors/@before 0: lua_processor@*zhime_clear
+  engine/filters/@after 1: lua_filter@*zhime

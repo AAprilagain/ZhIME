@@ -1,0 +1,14 @@
+{
+  "beam": 64,
+  "fuzzy_penalty": 1,
+  "scorer": "joint",
+  "alpha": 1.0,
+  "device": "cuda:0",
+  "precision": "float16",
+  "checkpoint": "artifacts/200m/model-200m.pt",
+  "model_sha256": "4264138979827d64e15068667dd3b83a98daafae135cb2a581c61898a74e75af",
+  "tokenizer_sha256": "94cdfc4112f9d6eab063847d8df440916be2e55da5d8bc5771eb681847dba305",
+  "lm_weight": 12.0,
+  "guided_lm_weight": 12.0,
+  "guided_search_budget_ms": 350
+}

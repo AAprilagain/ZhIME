@@ -1,0 +1,8 @@
+numpy
+pyarrow
+sentencepiece
+torch
+psutil
+pytest
+pypinyin
+opencc-python-reimplemented==0.1.7
